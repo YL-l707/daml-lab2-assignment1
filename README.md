@@ -27,6 +27,7 @@ This is not a random sample. I  deliberately selected these videos for variety, 
 ## 4. Repository Structure & Storage Note
 Due to GitHub's repository size constraints (< 100 MB) and the large file sizes of raw `.mp4` video clips, the raw video files and full original JSON files are excluded via `.gitignore` and stored locally. This repository follows the metadata-centric structure:
 
+```text
 ├── metadata.csv           # Selected metadata table for the 26 selected items
 ├── check_dataset.ipynb    # Jupyter Notebook for automated pandas validation checks
 ├── requirements.txt       # Python environment dependencies
@@ -37,21 +38,21 @@ Due to GitHub's repository size constraints (< 100 MB) and the large file sizes 
 ## 5. Metadata codebook
 The metadata was manually annotated after viewing the selected videos.
 
-| Column | Meaning | Type | Format / examples |
-|---|---|---|
-| `id` | Original unique video identifier | String | String of digits, e.g. `4410543060` |
-| `source` | Source dataset record | String | AVCaps Zenodo URL |
-| `licence` | Dataset licensing note and warning about underlying clip rights | String | Text; not proof of permission to redistribute MP4s |
-| `orientation` | Video orientation, derived from resolution | String | `landscape`, `portrait` |
-| `resolution` | Video frame dimensions, width × height | String | `640x480`, `480x640` |
-| `duration_seconds` | Video length in seconds | Integer | Positive integer, e.g. `26`, `90` |
-| `language` | Language heard in the audio, where identifiable | String | `en`, `zh`, `ko`, `ja`, `unknown`, or blank |
-| `content_category` | Short, manually assigned description of visible content | String | Free-text keywords, sometimes comma-separated |
-| `audio_type` | Manually assigned sound description | String | Free text, e.g. `environmental`, `musical`, `discussion`, `music, jazz` |
-| `has_speech` | Whether spoken conversation or speech was annotated | String | `yes` or `no`; singing alone was not consistently counted as speech |
-| `shooting_angle` | Approximate camera viewpoint | String | Free text, e.g. `eye`, `bird`, `frog` |
-| `camera_movement` | Observed camera motion | String | Free text, e.g. `pan`, `tilt`, `follow`, `zoom-in`, `zoom-out` |
-| `framing` | Approximate shot size | String | Free text, e.g. `close`, `medium`, `long` |
+｜ Column ｜ Meaning ｜ Type ｜ Format / examples ｜
+｜ --- ｜ --- ｜ --- ｜ --- ｜
+｜ `id` ｜ Original unique video identifier ｜ String ｜ String of digits, e.g. `4410543060` ｜
+｜ `source` ｜ Source dataset record ｜ String ｜ AVCaps Zenodo URL ｜
+｜ `licence` ｜ Dataset licensing note and warning about underlying clip rights ｜ String ｜ Text; not proof of permission to redistribute MP4s ｜
+｜ `orientation` ｜ Video orientation, derived from resolution ｜ String ｜ `landscape`, `portrait` ｜
+｜ `resolution` ｜ Video frame dimensions, width × height ｜ String ｜ `640x480`, `480x640` ｜
+｜ `duration_seconds` ｜ Video length in seconds ｜ Integer ｜ Positive integer, e.g. `26`, `90` ｜
+｜ `language` ｜ Language heard in the audio, where identifiable ｜ String ｜ `en`, `zh`, `ko`, `ja`, `unknown`, or blank ｜
+｜ `content_category` ｜ Short, manually assigned description of visible content ｜ String ｜ Free-text keywords, sometimes comma-separated ｜
+｜ `audio_type` ｜ Manually assigned sound description ｜ String ｜ Free text, e.g. `environmental`, `musical`, `discussion`, `music, jazz` ｜
+｜ `has_speech` ｜ Whether spoken conversation or speech was annotated ｜ String ｜ `yes` or `no`; singing alone was not consistently counted as speech ｜
+｜ `shooting_angle` ｜ Approximate camera viewpoint ｜ String ｜ Free text, e.g. `eye`, `bird`, `frog` ｜
+｜ `camera_movement` ｜ Observed camera motion ｜ String ｜ Free text, e.g. `pan`, `tilt`, `follow`, `zoom-in`, `zoom-out` ｜
+｜ `framing` ｜ Approximate shot size ｜ String ｜ Free text, e.g. `close`, `medium`, `long` ｜
 
 **Missing data**: Empty CSV cells mean the attribute was not determined or was not annotated. `unknown` means a language could not be identified.
 
