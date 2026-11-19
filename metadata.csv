@@ -1,0 +1,27 @@
+id,source,licence,orientation,resolution,duration_seconds,language,content_category,audio_type,has_speech,shooting_angle,camera_movement,framing
+4410543060,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,26,unknown,"parent, child, horse, riding",environmental,yes,eye,follow,medium
+4366402470,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,21,unknown,"parents, babies, walking",environmental,yes,bird,follow,medium
+4380772652,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,60,,"item, cup, hand, mouse, clicking",environmental,no,eye,,medium
+4390527144,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,portrait,480x640,54,en,"parent, baby, play",environmental,yes,eye,tilt,medium
+4403191162,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,85,en,"baby, eat, smile",environmental,yes,eye,"zoom-in, zoom-out",medium
+4451729145,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,41,en,"people, cats",environmental,yes,bird,tilt,medium
+4474236062,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,320x240,35,,"baby, walk",environmental,no,eye,"pan, tilt",medium
+4479407449,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x428,69,en,"people, discussion",discussion,yes,eye,,close
+4510506060,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,portrait,480x640,27,en,"people, eating, peking duck","environmental, music",yes,eye,pan,medium
+4520112789,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,55,en,"people, cat, has super-title",environmental,yes,bird,"tilt, pan",medium
+4561969559,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,320x240,85,,"people, play instruments, street performancing","music, jazz",no,eye,,long
+4564918802,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,portrait,480x640,55,en,"girl, eating",environmental,yes,eye,tilt,medium
+4571054955,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,320x240,30,,"boy, playing piano","music, classical",no,eye,,long
+4635309062,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,69,zh,"people, cooking",environmental,yes,eye,"zoom-in, zoom-out, pan","medium, close"
+4654222137,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,39,unknown,"flight model testing, flying model",environmental,no,frog,"zoom-in, zoom-out, pan","long, close"
+4687190278,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,42,zh,mum hugging her child,"environmental, music",yes,bird,"zoom-in, follow",medium
+4715646346,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x428,31,en,fencing,environmental,yes,eye,,long
+4769790180,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,90,en,a man in suit speeking,environmental,yes,frog,"zoom-in, zoom-out",long
+4772810451,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,30,,dogs,environmental,no,bird,"pan, follow",long
+4773574474,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,90,ko,"performing, singing",musical,no,frog,,long
+4790249002,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x428,83,,african drum performing,musical,no,eye,,long
+4834742923,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,90,ja,japan traditional musical instrument performing,musical,no,frog,,long
+4938136806,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,90,,helicopter landing,environmental,no,frog,pan,long
+10011660054,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,91,en,lecturing,environmental,yes,frog,"zoom-in, zoom-out",medium
+11130480243,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x480,54,ja,"singing, playing piano",musical,no,frog,"zoom-in, zoom-out, pan",long
+11329995395,https://zenodo.org/records/14536325,AVCaps dataset: see original source; video rights unverified,landscape,640x360,28,unknown,girls singing,musical,no,bird,pan,long
