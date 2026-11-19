@@ -1,0 +1,6 @@
+data_local/
+*.mp4
+test_captions.json
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
